@@ -1,0 +1,30 @@
+/* Button.module.css */
+
+.button {
+    background-color: #007bff; /* Default blue background */
+    color: white; /* White text color */
+    padding: 10px 20px; /* Padding for the button */
+    border: none; /* No border */
+    border-radius: 5px; /* Rounded corners */
+    font-size: 1rem; /* Font size */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: background-color 0.3s ease, transform 0.1s ease; /* Smooth transitions */
+  }
+  
+  /* Hover state */
+  .button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+  }
+  
+  /* Active state */
+  .button:active {
+    background-color: #004085; /* Even darker blue when pressed */
+    transform: scale(0.95); /* Slightly shrink the button */
+  }
+  
+  /* Focus state (for keyboard users) */
+  .button:focus {
+    outline: none; /* Remove default focus outline */
+    box-shadow: 0 0 0 3px rgba(0, 123, 255, 0.5); /* Add a custom focus outline */
+  }
+  

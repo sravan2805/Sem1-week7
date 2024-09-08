@@ -1,0 +1,47 @@
+/* ToggleSwitch.module.css */
+
+/* Toggle switch container */
+.switch {
+    width: 60px;
+    height: 30px;
+    background-color: #ccc; /* Default background color */
+    border-radius: 30px; /* Rounded corners */
+    position: relative;
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Smooth background transition */
+  }
+  
+  /* The slider that moves between on and off states */
+  .slider {
+    width: 26px;
+    height: 26px;
+    background-color: white;
+    border-radius: 50%;
+    position: absolute;
+    top: 2px;
+    left: 2px;
+    transition: transform 0.3s ease; /* Smooth sliding transition */
+  }
+  
+  /* Styles for when the switch is in the "on" state */
+  .on {
+    background-color: #4caf50; /* Green background */
+    transform: translateX(30px); /* Move slider to the right */
+  }
+  
+  /* Styles for when the switch is in the "off" state */
+  .off {
+    background-color: #f44336; /* Red background */
+    transform: translateX(0); /* Keep slider on the left */
+  }
+  
+  /* Container background changes when switch is on */
+  .switch.on {
+    background-color: #4caf50;
+  }
+  
+  /* Container background when switch is off */
+  .switch.off {
+    background-color: #f44336;
+  }
+  

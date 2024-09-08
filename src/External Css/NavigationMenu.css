@@ -1,0 +1,30 @@
+/* NavigationMenu.css */
+
+.nav-menu {
+    background-color: #333; /* Dark background color */
+    padding: 10px 20px; /* Padding around the menu */
+  }
+  
+  .nav-menu-list {
+    list-style: none; /* Remove default list styling */
+    margin: 0;
+    padding: 0;
+    display: flex; /* Display menu items in a row */
+    justify-content: center; /* Center the menu items horizontally */
+  }
+  
+  .nav-menu-list li {
+    margin: 0 15px; /* Spacing between menu items */
+  }
+  
+  .nav-menu-list a {
+    color: white; /* White text color */
+    text-decoration: none; /* Remove underline */
+    font-size: 16px; /* Set font size */
+    transition: color 0.3s ease; /* Smooth transition for color change */
+  }
+  
+  .nav-menu-list a:hover {
+    color: #4CAF50; /* Green color on hover */
+  }
+  

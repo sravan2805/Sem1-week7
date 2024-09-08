@@ -1,0 +1,22 @@
+/* Breadcrumb.module.css */
+.breadcrumb {
+    display: flex;
+    align-items: center;
+    font-size: 14px;      /* Font size for the breadcrumb */
+  }
+  
+  .breadcrumbItem {
+    color: #007bff;       /* Color for breadcrumb items (e.g., blue) */
+    text-decoration: none; /* Remove underline from links */
+    cursor: pointer;
+  }
+  
+  .breadcrumbItem:hover {
+    text-decoration: underline; /* Underline on hover */
+  }
+  
+  .separator {
+    margin: 0 8px;        /* Space around the separator */
+    color: #6c757d;       /* Color for the separator (e.g., gray) */
+  }
+  

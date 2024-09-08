@@ -1,0 +1,10 @@
+/* Tag.module.css */
+.tag {
+    background-color: #007bff; /* Background color (e.g., blue) */
+    color: white;              /* Text color */
+    padding: 5px 10px;         /* Padding inside the tag */
+    border-radius: 15px;       /* Rounded corners */
+    font-size: 14px;           /* Font size */
+    display: inline-block;     /* Ensures the tag doesn't take up full width */
+  }
+  

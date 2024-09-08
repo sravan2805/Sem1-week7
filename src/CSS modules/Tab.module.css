@@ -1,0 +1,40 @@
+/* Tab.module.css */
+
+/* Container for tabs */
+.tabsContainer {
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Tab button list */
+  .tabList {
+    display: flex; /* Horizontal layout for the tabs */
+    margin-bottom: 10px;
+  }
+  
+  /* Default tab button styles */
+  .tabButton {
+    flex: 1; /* Make each tab take equal space */
+    padding: 10px 20px;
+    cursor: pointer;
+    background-color: #f1f1f1; /* Default background for inactive tab */
+    border: 1px solid #ccc; /* Light border */
+    border-bottom: none; /* Remove bottom border */
+    transition: background-color 0.3s ease; /* Smooth transition for hover effect */
+    font-weight: bold;
+  }
+  
+  /* Active tab style */
+  .active {
+    background-color: white; /* White background for active tab */
+    border: 1px solid #ccc;
+    border-bottom: 2px solid #007bff; /* Highlight bottom border for active tab */
+    color: #007bff; /* Change text color for active tab */
+  }
+  
+  /* Tab content area */
+  .tabContent {
+    padding: 20px;
+    border: 1px solid #ccc; /* Border around the content */
+    background-color: white; /* White background for content area */
+  }
+  

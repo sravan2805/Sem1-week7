@@ -1,0 +1,19 @@
+/* ProfilePicture.module.css */
+
+/* Container for the profile picture */
+.profileContainer {
+    display: inline-block;
+    border-radius: 50%; /* Ensures the image remains circular */
+    padding: 3px; /* Optional padding around the image */
+    border: 3px solid #4caf50; /* Green border */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Shadow for depth */
+  }
+  
+  /* Circular profile image */
+  .profileImage {
+    width: 100px; /* Set the size of the image */
+    height: 100px;
+    border-radius: 50%; /* Makes the image circular */
+    object-fit: cover; /* Ensures the image covers the container without distortion */
+  }
+  

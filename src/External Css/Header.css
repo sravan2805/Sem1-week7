@@ -1,0 +1,14 @@
+/* Header.css */
+
+.header {
+    background-color: #4CAF50; /* Green background color */
+    padding: 20px; /* Padding around the header */
+    text-align: center; /* Center the text */
+    color: white; /* White text color */
+  }
+  
+  .header-title {
+    margin: 0; /* Remove default margin from the title */
+    font-size: 2em; /* Increase font size */
+  }
+  

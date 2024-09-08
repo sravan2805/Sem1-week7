@@ -1,0 +1,37 @@
+/* Footer.css */
+*{
+    padding-top: 100px;
+}
+.footer {
+    background-color: #333; /* Dark background color */
+    padding: 20px;
+    text-align: center;
+    color: white;
+  }
+  
+  .footer-links {
+    list-style: none; /* Remove bullet points */
+    padding: 0;
+    margin: 0 0 10px;
+  }
+  
+  .footer-links li {
+    display: inline; /* Display links inline */
+    margin: 0 15px; /* Spacing between links */
+  }
+  
+  .footer-links a {
+    color: white; /* Default link color */
+    text-decoration: none; /* Remove underline */
+    transition: color 0.3s ease; /* Smooth transition for color change */
+  }
+  
+  .footer-links a:hover {
+    color: #4CAF50; /* Green color on hover */
+  }
+  
+  .footer-text {
+    margin-top: 10px;
+    font-size: 14px;
+  }
+  

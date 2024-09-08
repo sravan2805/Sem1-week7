@@ -1,0 +1,36 @@
+/* Badge.module.css */
+
+/* Common badge styling */
+.badge {
+    display: inline-block;
+    padding: 5px 10px;
+    font-size: 0.9rem;
+    font-weight: bold;
+    border-radius: 12px;
+    text-align: center;
+    min-width: 50px;
+    color: white;
+    margin-right: 8px;
+  }
+  
+  /* Success badge styling */
+  .success {
+    background-color: #28a745; /* Green background */
+  }
+  
+  /* Warning badge styling */
+  .warning {
+    background-color: #ffc107; /* Yellow background */
+    color: #333; /* Dark text for readability */
+  }
+  
+  /* Error badge styling */
+  .error {
+    background-color: #dc3545; /* Red background */
+  }
+  
+  /* Default badge (optional) */
+  .default {
+    background-color: #6c757d; /* Gray background */
+  }
+  

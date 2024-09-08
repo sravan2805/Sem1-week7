@@ -1,0 +1,60 @@
+/* Sidebar.css */
+
+/* Sidebar container */
+.sidebar {
+    width: 250px;
+    height: 100vh; /* Full height */
+    background-color: #2C3E50; /* Dark blue/gray */
+    position: fixed; /* Fixed position to stay on the left */
+    top: 0;
+    left: 0;
+    padding: 20px;
+  }
+  
+  /* Sidebar navigation menu */
+  .sidebar-nav {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .sidebar-menu {
+    list-style-type: none; /* Remove bullet points */
+    padding: 0;
+    margin: 0;
+  }
+  
+  .sidebar-item {
+    margin: 20px 0; /* Add space between items */
+  }
+  
+  .sidebar-item a {
+    text-decoration: none; /* Remove underline from links */
+    color: #ecf0f1; /* Light text color */
+    font-size: 1.2rem;
+    display: block;
+    padding: 10px 15px;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+  }
+  
+  /* Hover effect for sidebar links */
+  .sidebar-item a:hover {
+    background-color: #34495E; /* Slightly darker shade */
+  }
+  
+  /* Active link style (optional) */
+  .sidebar-item a.active {
+    background-color: #1ABC9C; /* Highlight the active link with a different color */
+  }
+  
+  /* Responsive design for smaller screens */
+  @media (max-width: 768px) {
+    .sidebar {
+      width: 200px;
+    }
+  
+    .sidebar-item a {
+      font-size: 1rem;
+    }
+  }
+  

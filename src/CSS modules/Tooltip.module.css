@@ -1,0 +1,43 @@
+/* Tooltip.module.css */
+
+/* Container for the element and tooltip */
+.tooltipContainer {
+    position: relative; /* Position relative to parent */
+    display: inline-block; /* Ensure tooltip wraps around the content */
+  }
+  
+  /* Tooltip text box */
+  .tooltip {
+    position: absolute;
+    bottom: 125%; /* Position above the target element */
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #333; /* Dark background */
+    color: #fff; /* White text */
+    padding: 8px 12px;
+    border-radius: 4px;
+    white-space: nowrap; /* Prevent text from wrapping */
+    font-size: 0.9rem;
+    z-index: 100; /* Ensure tooltip is on top */
+    opacity: 0; /* Initially hidden */
+    visibility: hidden;
+    transition: opacity 0.2s ease, visibility 0.2s ease; /* Smooth transition */
+  }
+  
+  /* Show tooltip when visible */
+  .tooltipContainer:hover .tooltip {
+    opacity: 1;
+    visibility: visible;
+  }
+  
+  /* Tooltip arrow */
+  .tooltipArrow {
+    position: absolute;
+    top: 100%; /* Align arrow at the bottom of the tooltip */
+    left: 50%;
+    transform: translateX(-50%);
+    border-width: 6px;
+    border-style: solid;
+    border-color: #333 transparent transparent transparent; /* Arrow pointing down */
+  }
+  

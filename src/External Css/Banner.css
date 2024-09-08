@@ -1,0 +1,28 @@
+/* Banner.css */
+
+.banner {
+    background-image: url('../assets/Sunrise.jpg'); /* Path to your background image */
+    background-size: cover; /* Ensure the image covers the entire banner */
+    background-position: center; /* Center the image */
+    height: 650px; /* Set the height of the banner */
+    position: relative; /* Positioning for the text overlay */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .banner-content {
+    text-align: center; /* Center the text */
+    color: white; /* White text color for visibility */
+  }
+  
+  .banner-title {
+    font-size: 3em; /* Large font size for the title */
+    margin: 0;
+  }
+  
+  .banner-subtitle {
+    font-size: 1.5em; /* Slightly smaller font size for the subtitle */
+    margin-top: 10px;
+  }
+  
